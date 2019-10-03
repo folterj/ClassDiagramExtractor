@@ -1,2 +1,2 @@
 # ClassDiagramExtractor
-Extra Class Diagram from Java code
+Extract Class Diagram from Java code
