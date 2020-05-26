@@ -19,7 +19,7 @@ public class ClassDiagramExtractor {
 	
 	private String classFolder = System.getProperty("user.home") + "/git/.../target/classes";		// * substitute ... for project folder
 	private File classFolderFile;
-	private String filterPackage = "heron";															// * substitute ... for common package prefix
+	private String filterPackage = "...";															// * substitute ... for common package prefix
 	private String graphvizFilename = System.getProperty("user.home") + "/test.gv";					// * output file name
 	private List<String> classFiles = new ArrayList<String>();
 	private List<String> relations = new ArrayList<String>();
