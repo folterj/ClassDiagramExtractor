@@ -17,10 +17,10 @@ import java.util.List;
 
 public class ClassDiagramExtractor {
 	
-	private String classFolder = System.getProperty("user.home") + "/git/heronlib/target/classes";
+	private String classFolder = System.getProperty("user.home") + "/git/heronlib/target/classes";		// * substitute ... for project folder
 	private File classFolderFile;
-	private String filterPackage = "heron";
-	private String graphvizFilename = System.getProperty("user.home") + "/heron.gv";
+	private String filterPackage = "heron";															// * substitute ... for common package prefix
+	private String graphvizFilename = System.getProperty("user.home") + "/test.gv";					// * output file name
 	private List<String> classFiles = new ArrayList<String>();
 	private List<String> relations = new ArrayList<String>();
 	private ClassLoader classLoader;
